@@ -1,12 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Suspense } from "react";
+import Loading from "./Loading";
 
 const PortCard = ({ title, des, img, frameworks, repoLink, demoLink }) => {
   return (
     <div className={`port-card-style text-white my-5 bg-primary`}>
       <div className="p-6 ">
         <div className="w-[60%] h-[120px] bg-white border-4 border-black mx-auto sm:h-[120px] md:h-[180px] lg:h-[240px] rounded-md overflow-hidden">
-          <Image src={img} alt="img" className="w-full h-full rounded-sm" />
+          <Suspense fallback={<Loading />}>
+            <Image src={img} alt="img" className="w-full h-full rounded-sm" />
+          </Suspense>
         </div>
         <div className="space-y-3 mt-5">
           <div className="border-b-2 border-b-black">
