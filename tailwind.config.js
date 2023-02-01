@@ -8,8 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#FFCE4F",
-        secondary: "#7AC8EE",
+        primary: "#cd9859",
+        secondary: "#c7b5a6",
+        white: "#c7b5a6",
       },
       fontSize: {
         heroXl: "8.75rem",

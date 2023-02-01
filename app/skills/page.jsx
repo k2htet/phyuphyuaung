@@ -32,10 +32,10 @@ const Skills = () => {
 
           <hr className="my-2 bg-gray-600 h-[4px]" />
 
-          <h1 className="text-gray-600 md:text-xl lg:text-2xl lg:text-center">
+          <h1 className="text-black md:text-xl lg:text-2xl lg:text-center">
             Other Skills
           </h1>
-          <div className="grid grid-cols-2  text-md gap-3 text-gray-700 md:text-xl lg:text-3xl lg:text-center">
+          <div className="grid grid-cols-2  text-md gap-3 text-black md:text-xl lg:text-3xl lg:text-center">
             {skills.otherSkills.map((otherSkill) => (
               <OtherSkills name={otherSkill} key={otherSkill} />
             ))}

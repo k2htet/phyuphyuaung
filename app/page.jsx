@@ -8,7 +8,7 @@ export default function Home() {
     <main className="bg-primary min-h-screen flex-center flex-col gap-5">
       <div className=" page-container flex flex-col-reverse gap-10 pt-10 lg:grid lg:grid-cols-3">
         <div className="text-center lg:col-span-2 lg:text-start">
-          <h2 className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl text">
             Hello,
           </h2>
           <h1 className="text-5xl md:text-6xl md:my-3 lg:text-8xl xl:text-heroXl">
