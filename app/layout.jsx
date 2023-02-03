@@ -8,6 +8,7 @@ import Loading from "./loading";
 const bebas = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],
+  display: "optional",
 });
 
 export default function RootLayout({ children }) {
