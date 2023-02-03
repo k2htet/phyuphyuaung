@@ -94,7 +94,7 @@ const FormInput = () => {
         <div className="text-center my-2">
           <button
             type="submit"
-            className="btn-shadow w-full rounded-md text-2xl active:scale-90 py-1"
+            className="btn-shadow w-full rounded-md text-2xl active:scale-90 py-1 hover:bg-secondary"
           >
             Send
           </button>
