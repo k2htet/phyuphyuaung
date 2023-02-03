@@ -1,4 +1,5 @@
 import oldPort from "../public/oldPort.png";
+import newPort from "../public/newPort.png";
 import space from "../public/space-tour.png";
 
 export const skills = {
@@ -18,6 +19,14 @@ export const skills = {
 
 export const portCardData = {
   card: [
+    {
+      title: "Portfolio 2.0",
+      des: "NextJs 13 Beta, clean Files Folder structure and own figma design",
+      frameworks: ["NextJS", "Tailwind"],
+      repo: "https://github.com/k2htet/portfolio-2.0",
+      live: "https://kohtet.vercel.app/",
+      img: newPort,
+    },
     {
       title: "Old Portfolio",
       des: "Customize material UI, clean Files Folder structure and own figma design",

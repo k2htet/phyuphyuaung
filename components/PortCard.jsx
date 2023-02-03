@@ -7,7 +7,7 @@ const PortCard = ({ title, des, img, frameworks, repoLink, demoLink }) => {
   return (
     <div className={`port-card-style text-white my-5 bg-primary`}>
       <div className="p-6 ">
-        <div className="w-[60%] h-[120px] bg-white border-4 border-black mx-auto sm:h-[120px] md:h-[180px] lg:h-[240px] rounded-md overflow-hidden">
+        <div className="w-[60%] md:w-[40%] lg:w-[40%] h-[120px] bg-white border-4 border-black mx-auto sm:h-[120px] md:h-[180px] lg:h-[240px] rounded-md overflow-hidden">
           <Suspense fallback={<Loading />}>
             <Image src={img} alt="img" className="w-full h-full rounded-sm" />
           </Suspense>
