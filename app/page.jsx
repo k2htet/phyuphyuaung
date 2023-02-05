@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="bg-primary min-h-screen flex-center flex-col gap-5">
       <div className=" page-container flex flex-col-reverse gap-10 pt-10 lg:grid lg:grid-cols-3">
-        <div className="text-center lg:col-span-2 lg:text-start">
+        <div className="text-center lg:col-span-2 lg:text-start items-center">
           <h2 className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl text">
             Hello,
           </h2>
@@ -19,18 +19,14 @@ export default function Home() {
           </h2>
         </div>
         <div className="flex-center flex-col gap-5">
-          <div className="bg-white border-shadow rounded-sm">
-            <Image
-              src={proPic}
-              alt="profile"
-              className="w-[200px] h-auto sm:w-[220px] md:w-[240px] lg:w-[260px] xl:w-[305px] "
-            />
+          <div className="bg-white border-shadow rounded-sm w-[50%] lg:w-[80%]">
+            <Image src={proPic} alt="profile" className="w-full h-auto " />
           </div>
           <div>
             <Image
               src={profileLineVector}
               alt="profile"
-              className="w-[200px] h-auto sm:w-[220px] md:w-[240px] lg:w-[260px] xl:w-[305px]"
+              className="w-[180px] h-auto sm:w-[220px] md:w-[240px] lg:w-[260px] xl:w-[305px]"
             />
           </div>
         </div>
