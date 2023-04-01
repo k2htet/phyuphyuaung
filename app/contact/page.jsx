@@ -10,7 +10,7 @@ const Contact = () => {
           <div>
             <div className="text-2xl text-center md:text-3xl lg:text-4xl bg-primary p-2 border-4 rounded-md btn-shadow border-black tracking-widest my-3">
               <h1>Looking for a fulltime</h1>
-              <h1>Frontend Web Developer?</h1>
+              <h1>Laravel Web Developer?</h1>
               <h1>You Found!</h1>
 
               <div>
