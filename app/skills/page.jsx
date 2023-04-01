@@ -16,8 +16,8 @@ const Skills = () => {
     <section className="bg-primary">
       <div className="min-h-screen flex-center container mx-auto p-5 ">
         <SectionCard title="Skills">
-          <h1 className="text-center rounded-md border-2 border-black bg-primary p-2 mb-8 text-2xl sm:text-2xl md:text-3xl lg:text-4xl md:p-4 ">
-            Skills That I Use While Frontend Development
+          <h1 className="text-center rounded-md border-2 border-black bg-secondary text-white p-2 mb-8 text-2xl sm:text-2xl md:text-3xl lg:text-4xl md:p-4 ">
+            Skills That I Use While Backend Development
           </h1>
 
           <div className="grid grid-cols-1 gap-3 text-xl text-start my-2">
@@ -30,12 +30,12 @@ const Skills = () => {
             ))}
           </div>
 
-          <hr className="my-2 bg-gray-600 h-[4px]" />
+          <hr className="my-2 bg-secondary  h-[4px]" />
 
           <h1 className="text-black md:text-xl lg:text-2xl lg:text-center">
             Other Skills
           </h1>
-          <div className="grid grid-cols-2  text-md gap-3 text-black md:text-xl lg:text-3xl lg:text-center">
+          <div className="grid grid-cols-2  text-md gap-3 text-black md:text-xl lg:text-2xl lg:text-center">
             {skills.otherSkills.map((otherSkill) => (
               <OtherSkills name={otherSkill} key={otherSkill} />
             ))}

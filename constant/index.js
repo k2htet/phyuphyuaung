@@ -4,16 +4,16 @@ import space from "../public/space-tour.png";
 
 export const skills = {
   title: [
-    { name: "Ui Design", des: "figma" },
-    { name: "Code With", des: "React" },
+    { name: "Ui Design", des: "Figma" },
+    { name: "Code With", des: "Laravel" },
   ],
   otherSkills: [
-    "Next Js",
-    "Tailwind CSS",
-    "Material Ui",
-    "React Query",
-    "Redux-Toolkit",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Bootstrap",
     "Git & Github",
+    "English (Intermediate)",
   ],
 };
 

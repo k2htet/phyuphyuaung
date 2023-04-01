@@ -28,7 +28,7 @@ const PortCard = ({ title, des, img, frameworks, repoLink, demoLink }) => {
             {frameworks.map((data) => (
               <div
                 key={data}
-                className="w-[80px] h-[35px] bg-white border-2 rounded-full border-black flex-center text-sm md:w-[100px] md:h-[40px] lg:w-[120px] lg:h-[45px] sm:text-md md:text-lg lg:text-xl"
+                className=" bg-white border-2 rounded-full border-black flex-center text-sm sm:text-md md:text-lg lg:text-xl px-5 py-2"
               >
                 {data}
               </div>

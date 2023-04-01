@@ -10,15 +10,15 @@ const Navbar = () => {
   return (
     <div className="relative bg-primary">
       <nav className="page-container flex justify-between items-center ">
-        <div className="bg-white py-3 sm:py-3 md:py-4 lg:py-5 xl:py-6">
+        <div className=" py-3 sm:py-3 md:py-4 lg:py-5 xl:py-6 border-l-4 border-black">
           <Link
             href="/"
-            className="text-2xl sm:text-3xl lg:text-3xl underline px-4"
+            className="text-xl md:text-2xl lg:text-3xl font-bold underline px-4"
           >
-            KoKoHtet
+            Phyu Phyu Aung
           </Link>
         </div>
-        <div className="hidden lg:flex lg:justify-between lg:items-center lg:py-6 lg:space-x-10 lg:text-2xl lg:border-black lg:border-b-4">
+        <div className="hidden lg:flex lg:justify-between lg:items-center lg:py-6 lg:space-x-10 lg:text-xl lg:border-black lg:border-b-4">
           <Link href="/about">About</Link>
           <Link href="/portfolio">Portfolio</Link>
           <Link href="/skills">Skills</Link>
