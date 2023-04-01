@@ -8,7 +8,7 @@ export default function Home() {
     <main className="bg-primary min-h-screen flex-center flex-col gap-5">
       <div className=" page-container flex flex-col-reverse gap-10 pt-10 lg:grid lg:grid-cols-3 items-center">
         <div className="text-center lg:col-span-2 lg:text-start items-center space-y-2">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl">Hello, I'm</h2>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl">Hello, I am</h2>
           <h1 className="text-5xl md:text-6xl  lg:text-7xl">
             <span className="underline">Phyu Phyu Aung</span>
           </h1>
