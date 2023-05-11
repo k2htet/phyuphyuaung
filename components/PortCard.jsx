@@ -21,19 +21,24 @@ const PortCard = ({ title, des, img, frameworks, repoLink, demoLink }) => {
               {des}
             </p>
           </div>
-          <h1 className=" text-lg text-black sm:text-xl md:text-2xl lg:text-3xl ">
-            Framework That I Use
-          </h1>
-          <div className="flex justify-around items-center text-black gap-3">
-            {frameworks.map((data) => (
-              <div
-                key={data}
-                className=" bg-white border-2 rounded-full border-black flex-center text-sm sm:text-md md:text-lg lg:text-xl px-5 py-2"
-              >
-                {data}
+
+          {frameworks && (
+            <>
+              <h1 className=" text-lg text-black sm:text-xl md:text-2xl lg:text-3xl ">
+                Framework That I Use
+              </h1>
+              <div className="flex justify-around items-center text-black gap-3">
+                {frameworks.map((data) => (
+                  <div
+                    key={data}
+                    className=" bg-white border-2 rounded-full border-black flex-center text-sm sm:text-md md:text-lg lg:text-xl px-5 py-2"
+                  >
+                    {data}
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </>
+          )}
         </div>
       </div>
 
@@ -41,9 +46,11 @@ const PortCard = ({ title, des, img, frameworks, repoLink, demoLink }) => {
         <Link href={repoLink} className="text-md sm:text-lg">
           Gihub Repo
         </Link>
-        <Link href={demoLink} className="underline text-xl sm:text-2xl">
-          Demo Link
-        </Link>
+        {demoLink && (
+          <Link href={demoLink} className="underline text-xl sm:text-2xl">
+            Demo Link
+          </Link>
+        )}
       </div>
     </div>
   );

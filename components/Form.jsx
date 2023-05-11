@@ -31,19 +31,21 @@ const FormInput = () => {
   const onSubmit = (data) => {
     const param = {
       from_name: data.name,
-      from_email: data.email,
       message: data.des,
     };
+
     try {
       emailjs.send(
-        "service_psswh6c",
-        "template_84izuep",
+        "service_rbwh8rh",
+        "template_qmal2bx",
         param,
-        "roXMrYPgUq0NyegTu"
+        "JBS4NQzdIJ0E3PGC1"
       );
       notify();
       reset();
-    } catch (error) {}
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -61,7 +63,7 @@ const FormInput = () => {
           <input
             type="text"
             id="name"
-            className="w-full bg-white placeholder:text-gray-600 rounded-sm border-2 border-black shadow-xl py-2 placeholder:px-2"
+            className="w-full bg-white placeholder:text-gray-600 rounded-sm border-2 border-black shadow-xl py-2 px-3 placeholder:px-2"
             autoComplete="none"
             placeholder="Enter Your Name"
             {...register("name")}
@@ -74,7 +76,7 @@ const FormInput = () => {
           <input
             type="email"
             id="email"
-            className="w-full rounded-sm bg-white border-2 border-black shadow-xl py-2 placeholder:px-2 placeholder:text-gray-600 hover:focus:hidden"
+            className="w-full rounded-sm bg-white border-2 border-black shadow-xl py-2 px-3 placeholder:px-2 placeholder:text-gray-600 hover:focus:hidden"
             placeholder="Enter Your Email"
             {...register("email")}
           />
@@ -85,7 +87,7 @@ const FormInput = () => {
           </label>
           <textarea
             id="des"
-            className="w-full rounded-sm border-2 border-black shadow-xl py-2 placeholder:px-2 placeholder:align-middle bg-white placeholder:text-gray-600"
+            className="w-full rounded-sm border-2 border-black shadow-xl py-2 px-3 placeholder:px-2 placeholder:align-middle bg-white placeholder:text-gray-600"
             autoComplete="none"
             placeholder="Enter Description"
             {...register("des")}

@@ -5,7 +5,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <section className="bg-primary">
-      <div className="min-h-screen flex-center container px-4 mx-auto">
+      <div className="min-h-screen flex-center container px-4 py-2 mx-auto">
         <SectionCard title="About">
           <div className="flex-center flex-col sm:py-6 lg:py-10 gap-3">
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-start flex-col gap-3">
@@ -13,12 +13,20 @@ const About = () => {
                 <div>
                   <h1 className="text-md md:text-lg lg:text-xl">Experience</h1>
                   <ul className="list-disc px-4">
-                    <li>Web Developer in Netware Co.Ltd (6 Months)</li>
-                    <li>I have been developed a furniture website with PHP</li>
                     <li>
-                      I have been developed an income outcome website with Vue
-                      and Laravel API
+                      Netware Information Technology (Web Developer | 6 months)
                     </li>
+                    <li>I have developed a furniture website with PHP</li>
+                    <li>
+                      I have developed a Dental Clinic website with pure PHP
+                    </li>
+                    <li>I have developed an Blog API project with Laravel</li>
+                    <li>
+                      I have been currently modifying my old PHP Furniture
+                      website with Laravel.
+                    </li>
+                    <li>I have developed a royal.edu_feedback with PHP</li>
+                    <li>Internship in CareerConyat (4 months)</li>
                   </ul>
                 </div>
                 <div>
@@ -41,6 +49,7 @@ const About = () => {
                     <li>
                       Laravel Development Course at TTES (TOP IT EDU & SERVICES)
                     </li>
+                    <li>Oracle SQL Fundamentals (Info Wave Training Center)</li>
                   </ul>
                 </div>
               </div>
@@ -53,11 +62,13 @@ const About = () => {
                 <p
                   className={`text-sm leading-normal sm:text-md md:text-xl lg:text:2xl`}
                 >
-                  I’m a hardworking and ambitious individual with a great
-                  passion. I’m currently in fourth year of studying Computer
-                  Science at University of Computer Studies, Maubin. I have
-                  excellent communication skills, enabling me to effectively
-                  communication with a wide range of people.
+                  I have a background in information technology, with a focus on
+                  web development . I am the type of person who seizes every
+                  opportunity to learn something new. That is why I enjoy
+                  challenges. From there, I'm under pressure to learn quickly
+                  and gain a lot of new experience.And I’m currently in fourth
+                  year of studying Computer Science at University of Computer
+                  Studies, Maubin. I am a undergraduate student.
                 </p>
               </div>
             </div>

@@ -1,6 +1,6 @@
-import oldPort from "../public/oldPort.png";
-import newPort from "../public/newPort.png";
-import space from "../public/space-tour.png";
+import dental from "../public/dental_clinic.png";
+import por from "../public/porcupine.png";
+import royal from "../public/royal.edu_feedback.png";
 
 export const skills = {
   title: [
@@ -20,28 +20,28 @@ export const skills = {
 export const portCardData = {
   card: [
     {
-      title: "Portfolio 2.0",
-      des: "NextJs 13 Beta, clean Files Folder structure and own figma design",
-      frameworks: ["NextJS", "Tailwind"],
-      repo: "https://github.com/k2htet/portfolio-2.0",
-      live: "https://kohtet.vercel.app/",
-      img: newPort,
+      title: "Dentail Clinic",
+      des: "PHP pure only project with PDO",
+      frameworks: null,
+      repo: "https://github.com/PhyuPhyuAung259/dental_clinic",
+      live: null,
+      img: dental,
     },
     {
-      title: "Old Portfolio",
-      des: "Customize material UI, clean Files Folder structure and own figma design",
-      frameworks: ["React", "Material Ui"],
-      repo: "https://github.com/k2htet/portfolio",
-      live: "https://kokohtet.vercel.app/",
-      img: oldPort,
+      title: "Porcupine (furniture Project)",
+      des: "PHP pure only project",
+      frameworks: null,
+      repo: "https://github.com/PhyuPhyuAung259/porcupine",
+      live: null,
+      img: por,
     },
     {
-      title: "Space Tour",
-      des: "Challenge from frontend menthor and convert figma to react",
-      frameworks: ["React", "Material Ui"],
-      repo: "https://github.com/k2htet/space-tour",
-      live: "https://space-tour-chi.vercel.app/",
-      img: space,
+      title: "Royal.edu Feedback",
+      des: "PHP pure only project",
+      frameworks: null,
+      repo: "https://github.com/PhyuPhyuAung259/royal.edu_feedback",
+      live: null,
+      img: royal,
     },
   ],
 };
