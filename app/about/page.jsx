@@ -56,7 +56,7 @@ const About = () => {
 
               <div>
                 <h1 className="text-xl my-2 sm:text-2xl md:text-3xl ">
-                  I’m develop website with laravel and some useful package.
+                  I am develop website with laravel and some useful package.
                 </h1>
 
                 <p
@@ -65,7 +65,7 @@ const About = () => {
                   I have a background in information technology, with a focus on
                   web development . I am the type of person who seizes every
                   opportunity to learn something new. That is why I enjoy
-                  challenges. From there, I'm under pressure to learn quickly
+                  challenges. From there, I am under pressure to learn quickly
                   and gain a lot of new experience.And I’m currently in fourth
                   year of studying Computer Science at University of Computer
                   Studies, Maubin. I am a undergraduate student.
