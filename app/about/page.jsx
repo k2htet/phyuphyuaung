@@ -66,7 +66,7 @@ const About = () => {
                   web development . I am the type of person who seizes every
                   opportunity to learn something new. That is why I enjoy
                   challenges. From there, I am under pressure to learn quickly
-                  and gain a lot of new experience.And I’m currently in fourth
+                  and gain a lot of new experience.And I am currently in fourth
                   year of studying Computer Science at University of Computer
                   Studies, Maubin. I am a undergraduate student.
                 </p>
