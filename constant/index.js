@@ -1,6 +1,7 @@
 import dental from "../public/dental_clinic.png";
 import por from "../public/porcupine.png";
 import royal from "../public/royal.edu_feedback.png";
+import pLaravel from "../public/pLaravel.jpg";
 
 export const skills = {
   title: [
@@ -26,6 +27,14 @@ export const portCardData = {
       repo: "https://github.com/PhyuPhyuAung259/dental_clinic",
       live: null,
       img: dental,
+    },
+    {
+      title: "Porcupine (furniture Project)",
+      des: "Update PHP pure project with Laravel",
+      frameworks: ["Laravel", "Bootstrap"],
+      repo: "https://github.com/PhyuPhyuAung259/porcupine_furniture_laravel",
+      live: null,
+      img: pLaravel,
     },
     {
       title: "Porcupine (furniture Project)",
